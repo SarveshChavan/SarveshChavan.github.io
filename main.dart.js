@@ -72670,7 +72670,7 @@ s.f.Ex(A.agH(r,r,r,r,r,B.X,r,A.jV("Email successfully copied to clipboard",r,$.f
 $S:0}
 A.EF.prototype={
 I(a){var s=null,r=$.SV(),q=t.w,p=t.p
-return A.cf(s,new A.bt(B.bj,A.bx(A.a([B.lb,A.fn(A.a([A.eb(new A.c4().nT("nutan",J.bf($.c_()),"Nutan Vidyamandir Bhagur",$.c_(),["Secondary School Certification Exam","Percentage 95","2017 - 2018"])),A.dh(s,s,A.be(a,s,q).w.a.a*0.05),A.eb(new A.c4().nT("kthm",J.bf($.c_()),"K.T.H.M College Nashik",$.c_(),["Higher Secondary Certification Exam","Percentage 90.62","Attempted: 2019 & 2020"])),A.dh(s,s,A.be(a,s,q).w.a.a*0.05),A.eb(new A.c4().nT("pccoe",J.bf($.c_()),"PCCOE Pune",$.c_(),["B.Tech Computer Engineering","CGPA 9.22","2020 - Ongoing"]))],p),B.G,B.bK,B.p)],p),B.G,B.w,B.p),s),B.aK,s,s,r,s,s,s)}}
+return A.cf(s,new A.bt(B.bj,A.bx(A.a([B.lb,A.fn(A.a([A.eb(new A.c4().nT("nutan",J.bf($.c_()),"Nutan Vidyamandir Bhagur",$.c_(),["Secondary School Certification Exam","Percentage 95","2017 - 2018"])),A.dh(s,s,A.be(a,s,q).w.a.a*0.05),A.eb(new A.c4().nT("kthm",J.bf($.c_()),"K.T.H.M College Nashik",$.c_(),["Higher Secondary Certification Exam","Percentage 90.62","2019 - 2020"])),A.dh(s,s,A.be(a,s,q).w.a.a*0.05),A.eb(new A.c4().nT("pccoe",J.bf($.c_()),"PCCOE Pune",$.c_(),["B.Tech Computer Engineering","CGPA 9.22","2020 - Ongoing"]))],p),B.G,B.bK,B.p)],p),B.G,B.w,B.p),s),B.aK,s,s,r,s,s,s)}}
 A.EZ.prototype={
 I(a){var s=null,r=$.SW(),q=t.p
 return A.cf(s,new A.bt(B.bj,A.bx(A.a([B.la,A.fn(A.a([B.kU,A.eb(new A.c4().PU("l3a2kart",!0,J.bf($.c_()),"Flutter Full Stack Developer","L3A2KART Pvt.Ltd",$.c_(),u.N,"July 2022 - February 2023")),B.kU],q),B.G,B.bK,B.p)],q),B.G,B.w,B.p),s),B.aK,s,s,r,s,s,s)}}
@@ -72743,7 +72743,7 @@ s.f.Ex(A.agH(r,r,r,r,r,B.X,r,A.jV("Email successfully copied to clipboard",r,$.f
 $S:0}
 A.EG.prototype={
 I(a){var s=null,r=$.SV()
-return A.cf(s,new A.bt(B.bj,A.bx(A.a([B.lb,B.az,new A.c4().nT("nutan",J.bf($.c_()),"Nutan Vidyamandir Bhagur",$.c_(),["Secondary School Certification Exam","Percentage 95","2017 - 2018"]),B.E,new A.c4().nT("kthm",J.bf($.c_()),"K.T.H.M College Nashik",$.c_(),["Higher Secondary Certification Exam","Percentage 90.62","Attempted: 2019 & 2020"]),B.E,new A.c4().nT("pccoe",J.bf($.c_()),"PCCOE Pune",$.c_(),["B.Tech Computer Engineering","CGPA 9.22","2020 - Ongoing"])],t.p),B.G,B.w,B.p),s),B.aK,s,s,r,s,s,s)}}
+return A.cf(s,new A.bt(B.bj,A.bx(A.a([B.lb,B.az,new A.c4().nT("nutan",J.bf($.c_()),"Nutan Vidyamandir Bhagur",$.c_(),["Secondary School Certification Exam","Percentage 95","2017 - 2018"]),B.E,new A.c4().nT("kthm",J.bf($.c_()),"K.T.H.M College Nashik",$.c_(),["Higher Secondary Certification Exam","Percentage 90.62","2019 - 2020"]),B.E,new A.c4().nT("pccoe",J.bf($.c_()),"PCCOE Pune",$.c_(),["B.Tech Computer Engineering","CGPA 9.22","2020 - Ongoing"])],t.p),B.G,B.w,B.p),s),B.aK,s,s,r,s,s,s)}}
 A.F_.prototype={
 I(a){var s=null,r=$.SW()
 return A.cf(s,new A.bt(B.bj,A.bx(A.a([B.la,B.az,new A.c4().PU("l3a2kart",!0,J.bf($.c_()),"Flutter Full Stack Developer","L3A2KART Pvt.Ltd",$.c_(),u.N,"July 2022 - February 2023")],t.p),B.G,B.w,B.p),s),B.aK,s,s,r,s,s,s)}}
