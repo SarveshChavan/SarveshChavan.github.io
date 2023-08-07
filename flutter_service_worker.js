@@ -3,8 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "4b72eb2e41b3993d9e0cc161e4fff6fe",
-"assets/AssetManifest.json": "78d99e622a4e511f29d600f0bb0bc2d0",
+const RESOURCES = {"assets/AssetManifest.bin": "2e74fa83cc187269fa00ae2c12e2db17",
+"assets/AssetManifest.json": "bf9d3cebee7f85ce51fb646c137341c2",
 "assets/assets/fonts/Poppins-Bold.ttf": "08c20a487911694291bd8c5de41315ad",
 "assets/assets/fonts/Poppins-Medium.ttf": "bf59c687bc6d3a70204d3944082c5cc0",
 "assets/assets/fonts/Poppins-Regular.ttf": "093ee89be9ede30383f39a899c485a82",
@@ -17,6 +17,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "4b72eb2e41b3993d9e0cc161e4fff6fe
 "assets/assets/icons/linkedin.png": "1816e5c1168ca75e4e824ed21c4f002a",
 "assets/assets/icons/skills.png": "59e0d178d81f6e1a15edda591234b057",
 "assets/assets/icons/student.png": "e9e5874f03b649f3101e7458f3b7acdf",
+"assets/assets/images/afourthon.png": "6ddf5b5abfcb9f1c1d9eab12e67a1f61",
 "assets/assets/images/evento.png": "a4e3b05487c54e351cd327301d90ba28",
 "assets/assets/images/github.png": "bada3b2dca0911637f07d961cd7da5d5",
 "assets/assets/images/kthm.png": "974b7ea8c0a481f6ef6b8b27ad108ae3",
@@ -45,9 +46,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "4b72eb2e41b3993d9e0cc161e4fff6fe
 "flutter.js": "6b515e434cea20006b3ef1726d2c8894",
 "icons/Icon-192.png": "0ebe7ce668f44aae0504f84a019aa899",
 "icons/Icon-512.png": "6631dc8ab0f9bd0ae206c8806bfd7ff8",
-"index.html": "5c96c0e7ea009a86ad4dc7766b161e85",
-"/": "5c96c0e7ea009a86ad4dc7766b161e85",
-"main.dart.js": "5a8983be44df8654975e3e82215a68b0",
+"index.html": "aa5eb4c2766b60a631d6059c0f255d16",
+"/": "aa5eb4c2766b60a631d6059c0f255d16",
+"main.dart.js": "4e3c9ace71d45936435ca963d2b9d69b",
 "manifest.json": "524b3050a06a485d903302133c9abc4f",
 "version.json": "eead0ae5d36b17d56b010457f3319006"};
 // The application shell files that are downloaded before a service worker can
