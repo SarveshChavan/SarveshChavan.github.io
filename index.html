@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Sarvesh Chavan — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<!-- Favicons -->
+<link rel="icon" href="https://raw.githubusercontent.com/SarveshChavan/SarveshChavan.github.io/version-2/favicon/favicon.ico">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">Sarvesh Chavan</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="nav-hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<div class="nav-mobile-menu" id="mobileMenu">
+  <a href="#about" onclick="closeMenu()">About</a>
+  <a href="#experience" onclick="closeMenu()">Experience</a>
+  <a href="#projects" onclick="closeMenu()">Projects</a>
+  <a href="#skills" onclick="closeMenu()">Skills</a>
+  <a href="#education" onclick="closeMenu()">Education</a>
+  <a href="#contact" onclick="closeMenu()">Contact</a>
+</div>
+
+<!-- ABOUT -->
+<div id="about">
+  <div class="about-inner">
+    <div>
+      <div class="about-name">Sarvesh<br><em>Chavan</em></div>
+      <div class="about-role">Associate SDET · Full-Stack · IEEE Author</div>
+      <p class="about-bio">
+        Computer Science graduate with <strong>9.22 CGPA</strong> from PCCOE Pune. Currently at <strong>SAS R&D</strong> building automation frameworks and CI/CD pipelines that cut report times by <strong>80%</strong> and failures by <strong>90–95%</strong>. Published IEEE researcher in medical image segmentation. Also builds full-stack apps in Flutter, Node.js, and React.
+      </p>
+      <div class="about-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+    <div class="about-facts">
+      <div class="about-fact"><span class="about-fact-key">Location</span><span class="about-fact-val">Akurdi, Pune — 411033</span></div>
+      <div class="about-fact"><span class="about-fact-key">Current Role</span><span class="about-fact-val">Associate SDET · SAS R&D</span></div>
+      <div class="about-fact"><span class="about-fact-key">Experience</span><span class="about-fact-val">2+ YEARS</span></div>
+      <div class="about-fact"><span class="about-fact-key">Education</span><span class="about-fact-val">B.Tech CSE · 9.22 CGPA</span></div>
+      <div class="about-fact"><span class="about-fact-key">Phone</span><span class="about-fact-val">+91 9834958817</span></div>
+      <div class="about-fact"><span class="about-fact-key">Research</span><span class="about-fact-val">IEEE Published Author</span></div>
+      <div class="about-fact"><span class="about-fact-key">Availability</span><span class="about-fact-val">Open to Opportunities</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- EXPERIENCE — newest first by start date -->
+<section id="experience">
+  <div class="section-wrap">
+    <h2 class="section-title">Experience</h2>
+    <div class="exp-timeline">
+
+      <div class="exp-item current" data-animate>
+        <div class="exp-line"></div>
+        <div class="exp-content">
+          <div class="exp-role">Associate SDET</div>
+          <div class="exp-meta">
+            <span class="exp-company">SAS Research &amp; Development · Pune</span>
+            <span class="exp-period">Jul 2024 — Present</span>
+          </div>
+          <ul class="exp-bullets">
+            <li>Designed GitHub Actions CI/CD workflow — eliminated VM dependency, cut report time by 80%, failures by 90–95%</li>
+            <li>Refactored automation scripts reducing code size by 40–50%, improving long-term maintainability</li>
+            <li>Validated NOVA components during migration from Basic-Table to AG-Grid library</li>
+            <li>Functional, integration, regression, I18N, A11Y and exploratory testing for all internal Nova components</li>
+            <li>Built Node.js CAS data upload utility enabling 24/7 test data availability</li>
+            <li>Created Python-based Excel reporting utility to compare coverage metrics across sprint cycles</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="exp-item" data-animate>
+        <div class="exp-line"></div>
+        <div class="exp-content">
+          <div class="exp-role">SDET Intern</div>
+          <div class="exp-meta">
+            <span class="exp-company">SAS Research &amp; Development · Pune</span>
+            <span class="exp-period">Feb 2024 — Jun 2024</span>
+          </div>
+          <ul class="exp-bullets">
+            <li>Built custom automation library for NOVA, enhancing code reusability across the project</li>
+            <li>Presented internship work at company Tech Talk event</li>
+          </ul>
+          <div class="exp-badge">★ Spot Award</div>
+        </div>
+      </div>
+
+      <div class="exp-item" data-animate>
+        <div class="exp-line"></div>
+        <div class="exp-content">
+          <div class="exp-role">Trainee</div>
+          <div class="exp-meta">
+            <span class="exp-company">KPIT Technologies · Pune</span>
+            <span class="exp-period">Dec 2023 — Jan 2024</span>
+          </div>
+          <ul class="exp-bullets">
+            <li>Underwent intensive C++ training for upcoming projects</li>
+            <li>Consistently achieved A+ in all assessments</li>
+            <li>Received professional skill development training</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="exp-item" data-animate>
+        <div class="exp-line"></div>
+        <div class="exp-content">
+          <div class="exp-role">Flutter Full-Stack Developer Intern</div>
+          <div class="exp-meta">
+            <span class="exp-company">L3A2KART Pvt Ltd · Pune</span>
+            <span class="exp-period">Jun 2022 — Mar 2023</span>
+          </div>
+          <ul class="exp-bullets">
+            <li>Built Flutter Android app pages with customizable cards and responsive widgets</li>
+            <li>Used Firebase Storage and various Firebase tools for media management</li>
+            <li>Created REST APIs using Node.js and MongoDB, accessed via Dart and Flutter</li>
+            <li>Tested and documented all developed pages</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-wrap">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+
+      <div class="proj-card" data-animate>
+        <div class="proj-name">UI Automation Library</div>
+        <div class="proj-type">Testing Framework</div>
+        <div class="proj-desc">Cross-platform UI testing library reducing code redundancy by 30%. Standardized data-test IDs for DOM selector reliability across multiple products.</div>
+        <div class="proj-tags">
+          <span class="proj-tag">Playwright</span><span class="proj-tag">TypeScript</span><span class="proj-tag">Gerrit</span>
+        </div>
+      </div>
+
+      <div class="proj-card" data-animate>
+        <div class="proj-name">Breast Cancer Detection</div>
+        <div class="proj-type">ML Research · IEEE Published</div>
+        <div class="proj-desc">U-Net segmentation model on histopathology images for enhanced medical image processing. Published in IEEE for breast cancer detection research.</div>
+        <div class="proj-tags">
+          <span class="proj-tag">Python</span><span class="proj-tag">TensorFlow</span><span class="proj-tag">Keras</span><span class="proj-tag">U-Net</span>
+        </div>
+      </div>
+
+      <div class="proj-card" data-animate>
+        <div class="proj-name">Evento</div>
+        <div class="proj-type">Mobile App</div>
+        <div class="proj-desc">Flutter mobile app for creating, organizing, and promoting events. Clean reusable widget UI with Node.js and MongoDB backend for data management.</div>
+        <div class="proj-tags">
+          <span class="proj-tag">Flutter</span><span class="proj-tag">Node.js</span><span class="proj-tag">MongoDB</span><span class="proj-tag">Dart</span>
+        </div>
+      </div>
+
+      <div class="proj-card" data-animate>
+        <div class="proj-name">VInfo System</div>
+        <div class="proj-type">Desktop App</div>
+        <div class="proj-desc">JavaFX desktop application with Oracle database to store and manage visitor information. Enables organizations to analyze trends and manage visitor loads.</div>
+        <div class="proj-tags">
+          <span class="proj-tag">JavaFX</span><span class="proj-tag">Oracle SQL</span><span class="proj-tag">Java</span>
+        </div>
+      </div>
+
+      <div class="proj-card" data-animate>
+        <div class="proj-name">Library Management</div>
+        <div class="proj-type">Web App</div>
+        <div class="proj-desc">Flutter app to manage a library system — tracks books, students, transactions, and calculates fines. Replaced paper records with an efficient digital system.</div>
+        <div class="proj-tags">
+          <span class="proj-tag">Flutter</span><span class="proj-tag">Node.js</span><span class="proj-tag">MongoDB</span>
+        </div>
+      </div>
+
+      <div class="proj-card" data-animate>
+        <div class="proj-name">Open Source — Hacktoberfest</div>
+        <div class="proj-type">Community Contribution</div>
+        <div class="proj-desc">Successfully participated in Hacktoberfest. Contributed to open-source projects, improving coding skills through collaborative development efforts.</div>
+        <div class="proj-tags">
+          <span class="proj-tag">Open Source</span><span class="proj-tag">Git</span><span class="proj-tag">GitHub</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-wrap">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-groups">
+
+      <div>
+        <div class="skill-group-label">Languages</div>
+        <div class="skill-list">
+          <div class="skill-item" data-animate><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C"></div>C</div>
+          <div class="skill-item" data-animate><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++"></div>C++</div>
+          <div class="skill-item" data-animate><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"></div>Java</div>
+          <div class="skill-item" data-animate><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS"></div>JavaScript</div>
+          <div class="skill-item" data-animate><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TS"></div>TypeScript</div>
+          <div class="skill-item" data-animate><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"></div>Python</div>
+          <div class="skill-item" data-animate><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" alt="Dart"></div>Dart</div>
+        </div>
+      </div>
+
+      <div>
+        <div class="skill-group-label">Frameworks</div>
+        <div class="skill-list">
+          <div class="skill-item" data-animate><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter"></div>Flutter</div>
+          <div class="skill-item" data-animate><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node"></div>Node.js</div>
+          <div class="skill-item" data-animate><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"></div>React.js</div>
+          <div class="skill-item" data-animate><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="JavaFX"></div>JavaFX</div>
+          <div class="skill-item" data-animate>
+            <div class="skill-icon">
+              <img src="https://playwright.dev/img/playwright-logo.svg" alt="Playwright">
+            </div>Playwright
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="skill-group-label">Databases</div>
+        <div class="skill-list">
+          <div class="skill-item" data-animate><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"></div>MongoDB</div>
+          <div class="skill-item" data-animate><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"></div>MySQL</div>
+          <div class="skill-item" data-animate><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" alt="Oracle"></div>Oracle SQL</div>
+          <div class="skill-item" data-animate><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase"></div>Firebase</div>
+        </div>
+      </div>
+
+      <div>
+        <div class="skill-group-label">Testing</div>
+        <div class="skill-list">
+          <div class="skill-item" data-animate>
+            <div class="skill-icon"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" style="color:var(--faint)"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>API Testing
+          </div>
+          <div class="skill-item" data-animate>
+            <div class="skill-icon"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" style="color:var(--faint)"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>UI Testing
+          </div>
+          <div class="skill-item" data-animate>
+            <div class="skill-icon"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="color:var(--faint)"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg></div>Automation
+          </div>
+          <div class="skill-item" data-animate>
+            <div class="skill-icon"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" style="color:var(--faint)"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/></svg></div>I18N / A11Y
+          </div>
+          <div class="skill-item" data-animate>
+            <div class="skill-icon"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" style="color:var(--faint)"><path d="M3 3h18v18H3zM3 9h18M3 15h18M9 3v18"/></svg></div>Regression
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="skill-group-label">Tools</div>
+        <div class="skill-list">
+          <div class="skill-item" data-animate><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"></div>Git / GitHub</div>
+          <div class="skill-item" data-animate><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins"></div>Jenkins</div>
+          <div class="skill-item" data-animate><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Postman"></div>Postman</div>
+          <div class="skill-item" data-animate><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" alt="Jira"></div>Jira</div>
+          <div class="skill-item" data-animate><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VSCode"></div>VS Code</div>
+        </div>
+      </div>
+
+      <div>
+        <div class="skill-group-label">Design</div>
+        <div class="skill-list">
+          <div class="skill-item" data-animate><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma"></div>Figma</div>
+          <div class="skill-item" data-animate>
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" width="18" height="18"><rect width="24" height="24" rx="4" fill="#00C4CC" opacity="0.2"/><text x="3" y="17" font-size="11" fill="#00C4CC" font-weight="600" font-family="sans-serif">Ca</text></svg>
+            </div>Canva
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <div class="section-wrap">
+    <h2 class="section-title">Certifications</h2>
+    <div class="certs-grid">
+      <div class="cert-card" data-animate><div class="cert-name">Agentic AI for Developers</div><div class="cert-issuer">Linkedin Learning</div></div>
+      <div class="cert-card" data-animate><div class="cert-name">Agentic AI Fundamentals</div><div class="cert-issuer">Linkedin Learning</div></div>
+      <div class="cert-card" data-animate><div class="cert-name">Flutter Bootcamp with Dart</div><div class="cert-issuer">Udemy</div></div>
+      <div class="cert-card" data-animate><div class="cert-name">Data Structures and Algorithms</div><div class="cert-issuer">GeeksForGeeks</div></div>
+      <div class="cert-card" data-animate><div class="cert-name">C Programming</div><div class="cert-issuer">SoloLearn</div></div>
+      <div class="cert-card" data-animate><div class="cert-name">C++ Programming</div><div class="cert-issuer">SoloLearn</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="section-wrap">
+    <h2 class="section-title">Education</h2>
+    <div class="edu-grid">
+      <div class="edu-card" data-animate>
+        <div class="edu-degree">B.Tech — Computer Science</div>
+        <div class="edu-institution">Pimpri Chinchwad College of Engineering, Pune</div>
+        <div class="edu-score">9.22 CGPA</div>
+        <div class="edu-note">Published IEEE research on Image Segmentation for Breast Cancer Detection</div>
+      </div>
+      <div class="edu-card" data-animate>
+        <div class="edu-degree">Higher Secondary Certificate</div>
+        <div class="edu-institution">K.T.H.M College, Nashik</div>
+        <div class="edu-score">90.62%</div>
+        <div class="edu-note">Top 5 in college · Perfect 100 in Mathematics</div>
+      </div>
+      <div class="edu-card" data-animate>
+        <div class="edu-degree">Secondary School Certificate</div>
+        <div class="edu-institution">Nutan Vidyamandir, Deolali Camp, Nashik</div>
+        <div class="edu-score">95%</div>
+        <div class="edu-note">Top 3 in school · First prize, district science exhibition</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<div id="contact">
+  <div class="contact-inner">
+    <div>
+      <h2 class="contact-heading">Let's build<br><em style="font-family:var(--serif);font-style:italic;color:var(--muted)">something</em><br>together.</h2>
+      <p class="contact-sub" style="margin-top:1rem;">Open to SDET, full-stack, and automation engineering roles. Based in Pune — available for remote and hybrid.</p>
+    </div>
+    <div class="contact-links">
+      <a href="mailto:chavansarvesh32@gmail.com" class="contact-link"><div><div class="contact-link-label">Email</div><div class="contact-link-val">chavansarvesh32@gmail.com</div></div></a>
+      <a href="tel:+919834958817" class="contact-link"><div><div class="contact-link-label">Phone</div><div class="contact-link-val">+91 9834958817</div></div></a>
+      <a href="https://linkedin.com/in/sarvesh-chavan-524087219" target="_blank" class="contact-link"><div><div class="contact-link-label">LinkedIn</div><div class="contact-link-val">sarvesh-chavan-524087219</div></div></a>
+      <a href="https://github.com/SarveshChavan" target="_blank" class="contact-link"><div><div class="contact-link-label">GitHub</div><div class="contact-link-val">github.com/SarveshChavan</div></div></a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-copy">© 2025 Sarvesh Bapusaheb Chavan · Pune, India</div>
+  <div class="footer-links">
+    <a href="https://github.com/SarveshChavan" target="_blank">GitHub</a>
+    <a href="https://linkedin.com/in/sarvesh-chavan-524087219" target="_blank">LinkedIn</a>
+    <a href="mailto:chavansarvesh32@gmail.com">Email</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
